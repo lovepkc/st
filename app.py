@@ -6,7 +6,7 @@ import config
 st.markdown(config.FOOTER, unsafe_allow_html=True)
 
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role":"system", "content":chat.INSTRUCTION}]
+    st.session_state.messages = [{"role":"system", "content":config.INSTRUCTION}]
 
 for msg in st.session_state.messages[1:]:
     with st.chat_message(msg["role"]):
