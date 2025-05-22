@@ -17,6 +17,6 @@ FOOTER = """
     </style>
 
     <div class="footer">
-        🤖 from SOLASiUE
+        🤖 from SOLASiEU
     </div>
 """
